@@ -140,7 +140,7 @@
     <section id="customers" class="uk-section">
         <div class="uk-padding uk-padding-remove-horizontal">
             <h2 class="uk-title uk-text-bold uk-text-center">
-                From our customers
+                Customers feedback
             </h2>
             <hr>
         </div>

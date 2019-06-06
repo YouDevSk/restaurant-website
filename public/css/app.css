@@ -15508,6 +15508,10 @@ hr {
   color: coral;
 }
 
+#footer .uk-heading-bullet::before {
+  border-left: calc(5px + 0.1em) solid coral;
+}
+
 #post-header {
   height: calc(100vh - 80px);
 }
@@ -15521,16 +15525,17 @@ hr {
   border-top-right-radius: 8px;
 }
 
-#menu .uk-card:hover {
+#menu .uk-card {
   overflow: hidden;
+}
+
+#menu .uk-card img {
+  transition: 0.2s ease-in-out;
 }
 
 #menu .uk-card:hover img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  transition: -webkit-transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 }
 
 #customers .customer-comment {

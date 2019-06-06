@@ -93,7 +93,21 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-console.log('hi');
+// OPENING HOURS TABLE
+var dt = new Date();
+var day = dt.getDay();
+var rows = document.querySelectorAll('.tr');
+Array.from(rows).forEach(function (row, i) {
+  row.id = i + 1;
+
+  if (row.getAttribute('id') == dt.getDay()) {
+    row.classList.add('uk-background-muted');
+  }
+
+  if (row.getAttribute('id') == 7) {
+    row.id = 0;
+  }
+});
 
 /***/ }),
 
