@@ -1,0 +1,56 @@
+// UIKIT
+@import "uikit/src/scss/variables-theme.scss";
+@import "uikit/src/scss/mixins-theme.scss";
+@import "uikit/src/scss/uikit-theme.scss";
+
+// Variables
+@import 'mixins';
+@import 'variables';
+
+// Navbar
+#logo span {
+  color: $color-primary;
+}
+
+// Footer
+
+// #footer {
+//   background-color: lighten($color-primary, 10%);
+// }
+
+// Home
+#post-header {
+  height: calc(100vh - 80px);
+}
+
+#dishes {
+
+  .uk-card {
+    @include rounded();
+
+    img {
+      @include top-rounded();
+    }
+  }
+}
+
+#menu {
+
+  .uk-card:hover {
+    overflow: hidden;
+
+    img {
+      transform: scale(1.2);
+      transition: transform .2s ease-in-out;
+    }
+  }
+}
+
+#customers {
+
+  .customer-comment {
+    padding: 40px 60px;
+    @include rounded();
+  }
+}
+

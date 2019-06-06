@@ -1,0 +1,14 @@
+$enable-rounded: true;
+
+@mixin rounded($value:8px){
+  @if $enable-rounded {
+    border-radius: $value;
+  }
+}
+
+@mixin top-rounded($value:8px){
+  @if $enable-rounded {
+    border-top-left-radius: $value;
+    border-top-right-radius: $value;
+  }
+}
