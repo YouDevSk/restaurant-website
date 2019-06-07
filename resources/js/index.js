@@ -1,3 +1,16 @@
+// scroll to dishes section
+
+const arrowDown = document.querySelector("#scroll_to_dishes");
+const dishes    = document.querySelector('#dishes').offsetTop;
+
+arrowDown.addEventListener('click', (e)=> {
+  e.preventDefault();
+  window.scrollTo({
+    top: (dishes - 80),
+    behavior: 'smooth'
+  });
+})
+
 // OPENING HOURS TABLE
 
 let dt = new Date();

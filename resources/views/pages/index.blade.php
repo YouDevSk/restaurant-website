@@ -10,9 +10,9 @@
             <h4 class="uk-title uk-margin-remove-top uk-width-2-3@m uk-width-1-2@l uk-margin-auto">
                 Welcome to our restaurant! Together creeping heaven upon third dominion be upon won't darkness rule land behold it created good saw after she'd Our set living. Signs midst dominion creepeth morning.
             </h4>
-            <button class="uk-button uk-button-text uk-margin-top">
+            <a id="scroll_to_dishes" class="uk-margin-top">
                 <span data-uk-icon="icon: chevron-down; ratio: 3"></span>
-            </button>
+            </a>
         </div>
     </div>
 </section>
