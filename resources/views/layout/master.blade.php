@@ -25,6 +25,6 @@
     </main>
     @endif
     @include('layout.footer')
+    <script src="/js/custom/index.js"></script>
 </body>
-@yield('script')
 </html>

@@ -95,14 +95,18 @@
 
 // scroll to dishes section
 var arrowDown = document.querySelector("#scroll_to_dishes");
-var dishes = document.querySelector('#dishes').offsetTop;
-arrowDown.addEventListener('click', function (e) {
-  e.preventDefault();
-  window.scrollTo({
-    top: dishes - 80,
-    behavior: 'smooth'
+var dishes = document.querySelector('#dishes');
+
+if (arrowDown) {
+  arrowDown.addEventListener('click', function (e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: dishes.offsetTop - 80,
+      behavior: 'smooth'
+    });
   });
-}); // OPENING HOURS TABLE
+} // OPENING HOURS TABLE
+
 
 var dt = new Date();
 var day = dt.getDay();

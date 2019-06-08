@@ -192,6 +192,3 @@
     </section>
 </main>
 @endsection
-@section('script')
-    <script src="/js/custom/index.js"></script>
-@endsection
