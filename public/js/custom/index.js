@@ -114,7 +114,7 @@ var rows = document.querySelectorAll('.tr');
 Array.from(rows).forEach(function (row, i) {
   row.id = i + 1;
 
-  if (row.getAttribute('id') == dt.getDay()) {
+  if (row.getAttribute('id') == 7) {
     row.classList.add('uk-background-muted');
   }
 
