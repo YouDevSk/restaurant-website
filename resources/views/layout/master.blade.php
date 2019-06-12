@@ -7,8 +7,10 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title', 'PROTOTYPE')</title>
     {{-- JS --}}
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="/js/uikit/uikit.js"></script>
     {{-- CSS --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>

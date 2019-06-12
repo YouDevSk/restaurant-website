@@ -13,4 +13,8 @@ class PagesController extends Controller
     public function about(){
         return view('pages.about');
     }
+
+    public function menu(){
+        return view('pages.menu');
+    }
 }

@@ -16,9 +16,9 @@
         </div>
     </div>
 </section>
-<main class="uk-container uk-container-large">
+<main id="home">
     {{-- Popular dishes --}}
-    <section id="dishes" class="uk-section">
+    <section id="dishes" class="uk-section uk-container uk-container-large">
         <div class="uk-padding uk-padding-remove-top uk-padding-remove-horizontal">
             <h2 class="uk-title uk-text-bold uk-text-center">
                 Our top dishes
@@ -77,7 +77,7 @@
         </div>
     </section>
     {{-- Menu section --}}
-    <section id="menu" class="uk-section">
+    <section id="menu" class="uk-section uk-container uk-container-large">
         <div class="uk-padding uk-padding-remove-horizontal">
             <h2 class="uk-title uk-text-bold uk-text-center">
                 Our menu
@@ -137,7 +137,63 @@
             </a>
         </div>
     </section>
-    <section id="customers" class="uk-section">
+    {{-- book section --}}
+    <section id="book" class="uk-section uk-background-cover uk-light uk-background-blend-overlay uk-background-secondary" style="background-image: url(images/random/book-bg.jpg);">
+        <div class="uk-container uk-container-large">
+            <h2 class="uk-title uk-text-bold uk-text-center">
+                Book now!
+            </h2>
+            <hr>
+            <form class="uk-width-1-2@m uk-padding uk-padding-remove-horizontal uk-margin-auto" action="">
+                <fieldset class="uk-fieldset">
+                    <div class="uk-child-width-1-2@m" data-uk-grid>
+                        <div>
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Name">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-child-width-1-2@m" data-uk-grid>
+                        <div>
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Persons">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Phone number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-child-width-1-2@m" data-uk-grid>
+                        <div>
+                            <div id="datepicker-wrap" class="uk-margin">
+                                <input id="datepicker" class="uk-input" type="date" placeholder="Your date">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Phone number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-child-width-1-1" data-uk-grid>
+                        <div>
+                            <div class="uk-margin">
+                                <textarea name="" id="" cols="30" rows="5" class="uk-textarea" placeholder="Your text"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <section id="customers" class="uk-section uk-container uk-container-large">
         <div class="uk-padding uk-padding-remove-horizontal">
             <h2 class="uk-title uk-text-bold uk-text-center">
                 Customers feedback

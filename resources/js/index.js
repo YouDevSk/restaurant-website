@@ -23,7 +23,7 @@ let rows = document.querySelectorAll('.tr')
 Array.from(rows).forEach( (row, i) =>{
   row.id = i + 1;
 
-  if (row.getAttribute('id') == 7) {
+  if (row.getAttribute('id') == day) {
     row.classList.add('uk-background-muted')
   }
 
@@ -31,3 +31,10 @@ Array.from(rows).forEach( (row, i) =>{
     row.id = 0;
   }
 })
+
+// datepicker
+
+flatpickr('#datepicker', {
+  altInput: true,
+  altFormat: "F j, Y",
+});

@@ -8,6 +8,11 @@
 @import 'variables';
 
 // Navbar
+
+#header {
+  box-shadow: 0px 0px 10px 0px rgba($color-basic, .35);
+}
+
 #logo span {
   color: $color-primary;
 }
@@ -20,7 +25,7 @@
   }
 }
 
-// Home
+// Home page
 #post-header {
   height: calc(100vh - 80px);
 }
@@ -52,6 +57,7 @@
   }
 }
 
+
 #customers {
 
   .customer-comment {
@@ -60,3 +66,20 @@
   }
 }
 
+// Menu page
+
+.uk-tab > .uk-active > a {
+  border-color: $color-primary;
+}
+
+#menu-items {
+
+  .uk-media {
+
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

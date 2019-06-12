@@ -15504,6 +15504,10 @@ hr {
   border-color: coral;
 }
 
+#header {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
 #logo span {
   color: coral;
 }
@@ -15541,5 +15545,16 @@ hr {
 #customers .customer-comment {
   padding: 40px 60px;
   border-radius: 8px;
+}
+
+.uk-tab > .uk-active > a {
+  border-color: coral;
+}
+
+#menu-items .uk-media img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 

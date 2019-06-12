@@ -1,4 +1,4 @@
-<header class="uk-background-secondary uk-light" data-uk-sticky>
+<header id="header"class="uk-background-default uk-dark" data-uk-sticky>
   <div class="uk-container uk-container-large">
     <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
       <div class="uk-navbar-left">
@@ -11,6 +11,9 @@
           </li>
           <li>
             <a href="/about">about</a>
+          </li>
+          <li>
+            <a href="/menu">menu</a>
           </li>
         </ul>
         <a class="uk-navbar-toggle uk-hidden@m" data-uk-navbar-toggle-icon uk-toggle="target: #offcanvas-slide"></a>
@@ -27,6 +30,9 @@
           </li>
           <li class="uk-nav-header">
             <a href="/about">about</a>
+          </li>
+          <li class="uk-nav-header">
+            <a href="/menu">menu</a>
           </li>
         </ul>
     </div>
