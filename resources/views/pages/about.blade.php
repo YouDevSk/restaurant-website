@@ -11,23 +11,23 @@
     </div>
     <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-large-bottom" data-uk-grid data-uk-lightbox="animation:slide">
       <div>
-        <a class="uk-inline" href="/images/about_one.jpg" data-caption="Lorem ipsum">
+        <a class="uk-inline" href="/images/about_one.jpg" data-caption="Mushrooms">
           <img src="/images/about_one.jpg" alt="about_one" title="about_one">
         </a>
       </div>
       <div>
-        <a href="/images/about_two.jpg" data-caption="Caption 2">
-          <img src="/images/about_two.jpg" alt="about_two" title="about_two">
+        <a href="/images/about_two.jpg" data-caption="Bread and meat">
+          <img src="/images/about_two.jpg" alt="about_two" title="Bread and meat">
         </a>
       </div>
       <div>
-        <a href="/images/about_three.jpg" data-caption="Caption 3">
-          <img src="/images/about_three.jpg" alt="about_three" title="about_three">
+        <a href="/images/about_three.jpg" data-caption="Wok">
+          <img src="/images/about_three.jpg" alt="about_three" title="Wok">
         </a>
       </div>
       <div>
-        <a href="/images/about_four.jpg" data-caption="Caption 4">
-          <img src="/images/about_four.jpg" alt="about_four" title="about_four">
+        <a href="/images/about_four.jpg" data-caption="Saucepot">
+          <img src="/images/about_four.jpg" alt="about_four" title="Saucepot">
         </a>
       </div>
     </div>

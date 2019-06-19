@@ -11,7 +11,7 @@
       <li><a href="#">Pizza</a></li>
     </ul>
     <ul class="uk-switcher uk-margin" id="menu-items">
-      <div class="uk-flex uk-child-width-1-4@l uk-child-width-1-2@m" data-uk-grid>
+      <div class="uk-flex uk-child-width-1-4@l uk-child-width-1-2@s" data-uk-grid>
         <div class="uk-height-medium">
           <div class="uk-card uk-height-1-1">
             <div class="uk-media uk-height-1-1">
