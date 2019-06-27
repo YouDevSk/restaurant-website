@@ -32,6 +32,8 @@ class RegistrationController extends Controller
             'password' => bcrypt(request('password')),
         ]);
 
-        return redirect('/');
+        auth()->login($user);
+
+        return redirect()->intended('/dashboard');
     }
 }

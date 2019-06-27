@@ -15,11 +15,11 @@
 <body>
     <div class="uk-position-center">
     <h2 class="uk-title uk-text-center uk-text-bold">Login</h2>
-    <form class="uk-width-medium" action="/login" method="POST">
+    <form class="uk-width-large" action="/login" method="POST">
       @csrf
       <fieldset class="uk-fieldset">
         <div class="uk-margin">
-          <input type="email" name="email" class="uk-input" placeholder="Your email">
+          <input type="email" name="email" class="uk-input" placeholder="Your email" value="{{ old('email')}}">
         </div>
         <div class="uk-margin">
           <input type="password" name="password" class="uk-input" placeholder="Your password">
